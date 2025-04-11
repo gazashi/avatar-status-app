@@ -1,0 +1,29 @@
+
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+button {
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #0f0;
+  cursor: pointer;
+}
+.stat-bar {
+  background: #333;
+  height: 1rem;
+  margin: 0.5rem 0;
+  position: relative;
+}
+.stat-fill {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
