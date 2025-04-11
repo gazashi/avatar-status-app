@@ -1,0 +1,26 @@
+
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  padding: 1rem;
+}
+button {
+  background: none;
+  color: #0f0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.stat-bar {
+  height: 1rem;
+  background: #333;
+  margin-top: 0.25rem;
+  position: relative;
+}
+.stat-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
